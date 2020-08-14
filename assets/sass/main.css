@@ -124,4 +124,13 @@
   width: 100%;
   z-index: -1;
 }
+
+.our-destination {
+  padding: 50px;
+}
+
+.our-destination img {
+  width: 100%;
+  height: 80%;
+}
 /*# sourceMappingURL=main.css.map */
