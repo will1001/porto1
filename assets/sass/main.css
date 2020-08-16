@@ -202,42 +202,42 @@
   padding: 5px 20px;
 }
 
-.top-destiantion .description {
+.top-destiantion .top-destination-slider .description {
   padding: 45px 0px;
 }
 
-.top-destiantion .slide-img {
+.top-destiantion .top-destination-slider .slide-img {
   width: 90%;
   height: 90%;
   margin: 50px;
 }
 
-.top-destiantion .facility ul {
+.top-destiantion .top-destination-slider .facility ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0;
 }
 
-.top-destiantion .facility ul li {
+.top-destiantion .top-destination-slider .facility ul li {
   margin-right: 20px;
   list-style: none;
 }
 
-.top-destiantion .facility ul li i {
+.top-destiantion .top-destination-slider .facility ul li i {
   font-size: 25px;
 }
 
-.top-destiantion .price {
+.top-destiantion .top-destination-slider .price {
   font-size: 35px;
   color: gray;
 }
 
-.top-destiantion .rating {
+.top-destiantion .top-destination-slider .rating {
   color: orange;
 }
 
-.top-destiantion .book-button {
+.top-destiantion .top-destination-slider .book-button {
   border: 1px solid black;
   border-radius: 100px;
   padding: 15px;
@@ -246,17 +246,17 @@
   transition: 0.5s ease;
 }
 
-.top-destiantion .book-button:hover {
+.top-destiantion .top-destination-slider .book-button:hover {
   border-color: orange;
   color: #ffa705;
   cursor: pointer;
 }
 
-.top-destiantion .nextbutton {
+.top-destiantion .top-destination-slider .nextbutton {
   margin-top: 10vh;
 }
 
-.top-destiantion .nextbutton i {
+.top-destiantion .top-destination-slider .nextbutton i {
   font-size: 25px;
   border: 2px solid black;
   border-radius: 50px;
@@ -264,7 +264,7 @@
   margin-top: 20px;
 }
 
-.top-destiantion .nextbutton i:hover {
+.top-destiantion .top-destination-slider .nextbutton i:hover {
   color: orange;
   border-color: orange;
   cursor: pointer;
