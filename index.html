@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porto 1</title>
 
+    <link rel="stylesheet" href="./assets/css/owl.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/sass/main.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
+
 
 </head>
 <body>
@@ -28,8 +31,8 @@
                 <div class="menu">
                     <ul>
                         <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Menu">Menu</a></li>
+                        <li><a href="#ourdestination">Our Destination</a></li>
+                        <li><a href="#topdestination">Top Destination</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,11 +43,19 @@
     
 
     <!--============= Banner Section Starts Here =============-->
-        <section class="banner-1" data-background="./assets/images/banner-image.png" >
+        <section  class="banner-1" data-background="./assets/images/banner-image.png" >
 
             <!-- Banner background & shape Starts Here -->
-            <div class="banner-img">
-                <img src="./assets/images/banner-image.png" alt="shape1">
+            <div class="banner-slider owl-carousel owl-theme">
+                <div class="banner-img">
+                    <img src="./assets/images/banner-image.png" alt="shape1">
+                </div>
+                <div class="banner-img">
+                    <img src="./assets/images/our-dest-6.jpg" alt="shape1">
+                </div>
+                <div class="banner-img">
+                    <img src="./assets/images/our-dest-7.jpg" alt="shape1">
+                </div>
             </div>
             
             <div class="bg-shape">
@@ -86,7 +97,7 @@
 
     <!--============= Our destination Section Starts Here =============-->
 
-    <section class="our-destination">
+    <section id="ourdestination" class="our-destination">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -96,21 +107,93 @@
             <div class="row">
                 <div class="col-lg-4">
                     <img src="./assets/images/our-dest-1.jpg" alt="">
+                    <div class="box-content">
+                        <div class="content-wrapped">
+                            <div class="title">
+                                <h3>Bali</h3>
+                                <p>Indonesia</p>
+                            </div>
+                            <div class="visitor-icon">
+                                <i class="far fa-user"></i> 141
+                                <span class="tooltiptext">visitor</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <img src="./assets/images/our-dest-7.jpg" alt="">
+                    <div class="box-content">
+                        <div class="content-wrapped">
+                            <div class="title">
+                                <h3>Hawaii</h3>
+                                <p>USA</p>
+                            </div>
+                            <div class="visitor-icon">
+                                <i class="far fa-user"></i> 155
+                                <span class="tooltiptext">visitor</span>
+                            </div>
+                        </div>
+                    </div>  
                 </div>
                 <div class="col-lg-4">
                     <img src="./assets/images/our-dest-5.jpg" alt="">
+                    <div class="box-content">
+                        <div class="content-wrapped">
+                            <div class="title">
+                                <h3>Glacier National Park</h3>
+                                <p>North America</p>
+                            </div>
+                            <div class="visitor-icon">
+                                <i class="far fa-user"></i> 132
+                                <span class="tooltiptext">visitor</span>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
                 <div class="col-lg-4">
                     <img src="./assets/images/our-dest-8.jpg" alt="">
+                    <div class="box-content">
+                        <div class="content-wrapped">
+                            <div class="title">
+                                <h3>Mt. Fuji</h3>
+                                <p>Japan</p>
+                            </div>
+                            <div class="visitor-icon">
+                                <i class="far fa-user"></i> 111
+                                <span class="tooltiptext">visitor</span>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
                 <div class="col-lg-4">
                     <img src="./assets/images/our-dest-6.jpg" alt="">
+                    <div class="box-content">
+                        <div class="content-wrapped">
+                            <div class="title">
+                                <h3>The Li River in Guilin</h3>
+                                <p>China</p>
+                            </div>
+                            <div class="visitor-icon">
+                                <i class="far fa-user"></i> 156
+                                <span class="tooltiptext">visitor</span>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
                 <div class="col-lg-4">
                     <img src="./assets/images/our-dest-7.jpg" alt="">
+                    <div class="box-content">
+                        <div class="content-wrapped">
+                            <div class="title">
+                                <h3>Monte Isola</h3>
+                                <p>Italy</p>
+                            </div>
+                            <div class="visitor-icon">
+                                <i class="far fa-user"></i> 113
+                                <span class="tooltiptext">visitor</span>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -119,33 +202,106 @@
 
     <!--============= Top destination Section Starts Here =============-->
 
-    <section class="top-destiantion"> 
+    <section id="topdestination" class="top-destiantion"> 
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Top Destination</h1>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="./assets/images/our-dest-1.jpg" alt="">
-                </div>
-                <div class="col-lg-6">
-                    <h1>Bali</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque perspiciatis temporibus corporis quas officiis omnis nobis mollitia sint? Porro quo delectus aut voluptatem quae error, reprehenderit in deserunt dolorem mollitia.</p>
-                    <div class="facility">
-                        <ul>
-                            <li><i class="fas fa-biking"></i></li>
-                            <li><i class="fas fa-biking"></i></li>
-                            <li><i class="fas fa-biking"></i></li>
-                            <li><i class="fas fa-biking"></i></li>
-                            <li><i class="fas fa-biking"></i></li>
-                        </ul>
+            <div class="top-destination-slider owl-carousel owl-theme">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="slide-img" src="./assets/images/our-dest-1.jpg" alt="">
                     </div>
-                                        <input type="date" name="from" id="from">
-                    <input type="date" name="to" id="from">
-
-                    <p>$600</p>
-                    <div class="nextbutton">
-                        <p><        ></p>
+                    <div class="col-lg-6 description">
+                        <h1>Bali</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque perspiciatis temporibus corporis quas officiis omnis nobis mollitia sint? Porro quo delectus aut voluptatem quae error, reprehenderit in deserunt dolorem mollitia.</p>
+                        <div class="facility">
+                            <ul>
+                                <li><i class="fas fa-biking"></i></li>
+                                <li><i class="fas fa-utensils"></i></li>
+                                <li><i class="fas fa-hiking"></i></li>
+                                <li><i class="fas fa-swimming-pool"></i></li>
+                                <li><i class="fas fa-umbrella-beach"></i></li>
+                            </ul>
+                        </div>
+                        <p class="price">$400</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="book-button">book now</span>
+                        <div class="nextbutton">
+                        <i class="fas fa-arrow-right top-destination-next"></i>
+                        <br>
+                        <i class="fas fa-arrow-left top-destination-prev"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="slide-img" src="./assets/images/our-dest-5.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 description">
+                        <h1>Mt.Fuji</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque perspiciatis temporibus corporis quas officiis omnis nobis mollitia sint? Porro quo delectus aut voluptatem quae error, reprehenderit in deserunt dolorem mollitia.</p>
+                        <div class="facility">
+                            <ul>
+                                <li><i class="fas fa-biking"></i></li>
+                                <li><i class="fas fa-utensils"></i></li>
+                                <li><i class="fas fa-hiking"></i></li>
+                                <li><i class="fas fa-swimming-pool"></i></li>
+                                <li><i class="fas fa-umbrella-beach"></i></li>
+                            </ul>
+                        </div>
+                        <p class="price">$700</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="book-button">book now</span>
+                        <div class="nextbutton">
+                        <i class="fas fa-arrow-right top-destination-next"></i>
+                        <br>
+                        <i class="fas fa-arrow-left top-destination-prev"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="slide-img" src="./assets/images/our-dest-2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 description">
+                        <h1>Hawaii</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque perspiciatis temporibus corporis quas officiis omnis nobis mollitia sint? Porro quo delectus aut voluptatem quae error, reprehenderit in deserunt dolorem mollitia.</p>
+                        <div class="facility">
+                            <ul>
+                                <li><i class="fas fa-biking"></i></li>
+                                <li><i class="fas fa-utensils"></i></li>
+                                <li><i class="fas fa-hiking"></i></li>
+                                <li><i class="fas fa-swimming-pool"></i></li>
+                                <li><i class="fas fa-umbrella-beach"></i></li>
+                            </ul>
+                        </div>
+                        <p class="price">$600</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="book-button">book now</span>
+                        <div class="nextbutton">
+                        <i class="fas fa-arrow-right top-destination-next"></i>
+                        <br>
+                        <i class="fas fa-arrow-left top-destination-prev"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -156,7 +312,7 @@
     <!--============= Top destination Section Ends Here =============-->
 
     <!--============= Testimonial Section Starts Here =============-->
-    <div class="testimonial">
+    <!-- <div class="testimonial">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Testimonial</h1>
@@ -173,25 +329,76 @@
                 <h1>lorem</h1>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--============= Testimonial Section Ends Here =============-->
    
     <!--============= NewsLatter Section Starts Here =============-->
-    <div class="newslatter">
-        <div class="container text-center">
-            <h1>Get New Offer Update</h1>
-            <input type="text">
-            <button>Subscribe</button>
-        </div>
-    </div>
+   
 
     <!--============= NewsLatter Section Ends Here =============-->
     
     <!--============= Footer Section Starts Here =================-->
     
     <footer class="footer">
+        <img class="footer-shape" src="./assets/images/footer-shape-1.png" alt="">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                     <div class="newsletter">
+                        <div class="container text-center">
+                            <h1>Get New Offer Update</h1>
+                            <div class="subscribe-button">
+                                <input type="text">
+                                <span>Subscribe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 logo-footer">
+                    <img src="./assets/images/logo2.png" alt="logo-footer">    
+                </div>
+                <div class="col-lg-4 useful-link">
+                    <h5>Useful Links:</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
 
+                </div>
+                <div class="col-lg-6">
+                    <h5>Contact:</h5>
+                    <div class="contact-footer">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+62 1133 4433</span>
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span>lorem, 789 Main rd, 53312 USA</span>
+                    </div>
+                    <div class="applink">
+                        <div class="playstore">
+                            <img src="./assets/images/playstore.svg" alt="">
+                            <span>Download</span>
+                        </div>
+                        <div class="appstore">
+                            <img src="./assets/images/app.svg" alt="">
+                            <span>Download</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 credits">
+                    <hr>
+                   <a href="http://www.freepik.com">Designed by Freepik</a>
+                </div>
+
+            </div>
+        </div>
     </footer>
 
     <!--============= Footer Section Ends Here =================-->
@@ -204,6 +411,8 @@
     <script src="./assets/js/jquery-3.3.1.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/jquery-ui.min.js"></script>
+    <script src="./assets/js/owl.min.js"></script>
+    <script src="./assets/js/main.js"></script>
     
 </body>
 </html>

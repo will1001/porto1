@@ -44,6 +44,18 @@
   color: white;
 }
 
+.banner-1 .banner-slider {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -2;
+}
+
+.banner-1 .banner-slider img {
+  height: 100%;
+}
+
 .banner-1 .social_icons {
   margin-top: 30vh;
 }
@@ -94,19 +106,6 @@
   font-size: 17px;
   font-family: "Open Sans";
   font-weight: bold;
-}
-
-.banner-1 .banner-img {
-  padding: 0;
-}
-
-.banner-1 .banner-img img {
-  height: 100%;
-  width: 60%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -2;
 }
 
 .banner-1 .abstract-shape-1 img {

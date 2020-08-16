@@ -36,6 +36,18 @@
 
 // Section Banner Style
 .banner-1{
+    .banner-slider{
+        height: 100%;
+        // width: 60%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -2;
+            img{
+                height: 100%;
+                // width: 60%;
+            }
+    }
     color: white;
     // Social iconn style
     .social_icons{
@@ -81,17 +93,7 @@
     }
 
     // Banner image style
-    .banner-img{
-        padding: 0;
-        img{
-            height: 100%;
-            width: 60%;
-            position: absolute;
-            right: 0;
-            top: 0;
-            z-index: -2;
-        }
-    }
+    
 
     // Abstract shape style in CTA Button
     .abstract-shape-1{
