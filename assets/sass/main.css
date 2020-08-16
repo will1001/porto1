@@ -46,14 +46,16 @@
 
 .banner-1 .banner-slider {
   height: 100%;
+  width: 60%;
+  padding: 0;
   position: absolute;
   right: 0;
   top: 0;
   z-index: -2;
 }
 
-.banner-1 .banner-slider img {
-  height: 100%;
+.banner-1 .banner-slider .banner-img img {
+  height: 97.5vh;
 }
 
 .banner-1 .social_icons {
