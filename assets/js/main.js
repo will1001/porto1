@@ -30,7 +30,7 @@ $('.top-destination-slider').owlCarousel({
 });
 
 var owlTopDest = $('.top-destination-slider');
-owlE.owlCarousel();
+owlTopDest.owlCarousel();
     
 
 $('.top-destination-next').on('click', function() {
@@ -38,5 +38,5 @@ $('.top-destination-next').on('click', function() {
 })
 
 $('.top-destination-prev').on('click', function () {
-    owlE.trigger('prev.owl.carousel', [300]);
+    owlTopDest.trigger('prev.owl.carousel', [300]);
 })
